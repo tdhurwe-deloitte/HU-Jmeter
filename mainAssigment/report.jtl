@@ -1,0 +1,4 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1649993722573,966,/login-2,200,OK,Thread Group - Contact 6-1,text,true,,654,488,1,1,https://api.demoblaze.com/login,965,0,591
+1649993723541,323,/check-22,200,OK,Thread Group - Contact 6-1,text,true,,545,475,1,1,https://api.demoblaze.com/check,323,0,0
+1649993723865,486,contact/check-49,200,OK,Thread Group - Contact 6-1,text,true,,545,475,1,1,https://api.demoblaze.com/check,485,0,0

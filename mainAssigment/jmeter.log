@@ -1,129 +1,124 @@
-2022-04-15 09:05:21,899 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
-2022-04-15 09:05:21,912 INFO o.a.j.JMeter: Loading user properties from: C:\Users\tdhurwe\Downloads\apache-jmeter-5.4.3\bin\user.properties
-2022-04-15 09:05:21,913 INFO o.a.j.JMeter: Loading system properties from: C:\Users\tdhurwe\Downloads\apache-jmeter-5.4.3\bin\system.properties
-2022-04-15 09:05:21,918 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
-2022-04-15 09:05:21,918 INFO o.a.j.JMeter: Version 5.4.3
-2022-04-15 09:05:21,918 INFO o.a.j.JMeter: java.version=17.0.2
-2022-04-15 09:05:21,919 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
-2022-04-15 09:05:21,919 INFO o.a.j.JMeter: os.name=Windows 10
-2022-04-15 09:05:21,919 INFO o.a.j.JMeter: os.arch=amd64
-2022-04-15 09:05:21,919 INFO o.a.j.JMeter: os.version=10.0
-2022-04-15 09:05:21,919 INFO o.a.j.JMeter: file.encoding=Cp1252
-2022-04-15 09:05:21,919 INFO o.a.j.JMeter: java.awt.headless=true
-2022-04-15 09:05:21,919 INFO o.a.j.JMeter: Max memory     =1073741824
-2022-04-15 09:05:21,919 INFO o.a.j.JMeter: Available Processors =8
-2022-04-15 09:05:21,925 INFO o.a.j.JMeter: Default Locale=English (EN)
-2022-04-15 09:05:21,925 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
-2022-04-15 09:05:21,925 INFO o.a.j.JMeter: JMeterHome=C:\Users\tdhurwe\Downloads\apache-jmeter-5.4.3
-2022-04-15 09:05:21,926 INFO o.a.j.JMeter: user.dir  =C:\Users\tdhurwe\Documents\Jmeter_assignment\mainAssigment
-2022-04-15 09:05:21,926 INFO o.a.j.JMeter: PWD       =C:\Users\tdhurwe\Documents\Jmeter_assignment\mainAssigment
-2022-04-15 09:05:21,927 INFO o.a.j.JMeter: IP: 192.168.29.122 Name: USBLRTDHURWE1 FullName: USBLRTDHURWE1.us.deloitte.com
-2022-04-15 09:05:21,934 INFO o.a.j.s.FileServer: Default base='C:\Users\tdhurwe\Documents\Jmeter_assignment\mainAssigment'
-2022-04-15 09:05:21,935 INFO o.a.j.s.FileServer: Set new base='C:\Users\tdhurwe\Documents\Jmeter_assignment\mainAssigment'
-2022-04-15 09:05:22,043 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2022-04-15 09:05:22,062 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
-2022-04-15 09:05:22,064 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2022-04-15 09:05:22,067 INFO o.a.j.s.SaveService: Loading file: main_assignment.jmx
-2022-04-15 09:05:22,113 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2022-04-15 09:05:22,113 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2022-04-15 09:05:22,113 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2022-04-15 09:05:22,113 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2022-04-15 09:05:22,113 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
-2022-04-15 09:05:22,113 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
-2022-04-15 09:05:22,403 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
-2022-04-15 09:05:22,404 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file C:\Users\tdhurwe\Downloads\apache-jmeter-5.4.3\bin\proxyserver.jks
-2022-04-15 09:05:22,413 INFO o.a.j.JMeter: Creating summariser <summary>
-2022-04-15 09:05:22,418 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2022-04-15 09:05:22,418 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2022-04-15 09:05:22,418 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2022-04-15 09:05:22,423 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
-2022-04-15 09:05:22,423 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
-2022-04-15 09:05:22,478 INFO o.a.j.JMeter: Running test (1649993722478)
-2022-04-15 09:05:22,491 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group - Register
-2022-04-15 09:05:22,491 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group - Register.
-2022-04-15 09:05:22,491 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2022-04-15 09:05:22,491 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
-2022-04-15 09:05:22,494 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2022-04-15 09:05:22,494 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Thread Group - Login
-2022-04-15 09:05:22,494 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group - Login.
-2022-04-15 09:05:22,494 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2022-04-15 09:05:22,494 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=1 delayedStart=false
-2022-04-15 09:05:22,495 INFO o.a.j.t.ThreadGroup: Started thread group number 2
-2022-04-15 09:05:22,495 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : Thread Group - Invalid Login
-2022-04-15 09:05:22,495 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group - Invalid Login.
-2022-04-15 09:05:22,495 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2022-04-15 09:05:22,495 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=1 ramp-up=1 delayedStart=false
-2022-04-15 09:05:22,496 INFO o.a.j.t.ThreadGroup: Started thread group number 3
-2022-04-15 09:05:22,496 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 4 : Thread Group - Add to cart
-2022-04-15 09:05:22,496 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group - Add to cart.
-2022-04-15 09:05:22,496 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2022-04-15 09:05:22,496 INFO o.a.j.t.ThreadGroup: Starting thread group... number=4 threads=1 ramp-up=1 delayedStart=false
-2022-04-15 09:05:22,497 INFO o.a.j.t.ThreadGroup: Started thread group number 4
-2022-04-15 09:05:22,497 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 5 : Thread Group - Checkout
-2022-04-15 09:05:22,497 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group - Checkout.
-2022-04-15 09:05:22,497 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2022-04-15 09:05:22,498 INFO o.a.j.t.ThreadGroup: Starting thread group... number=5 threads=1 ramp-up=1 delayedStart=false
-2022-04-15 09:05:22,498 INFO o.a.j.t.ThreadGroup: Started thread group number 5
-2022-04-15 09:05:22,498 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 6 : Thread Group - Contact
-2022-04-15 09:05:22,498 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group - Contact.
-2022-04-15 09:05:22,498 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2022-04-15 09:05:22,498 INFO o.a.j.t.ThreadGroup: Starting thread group... number=6 threads=1 ramp-up=1 delayedStart=false
-2022-04-15 09:05:22,499 INFO o.a.j.t.ThreadGroup: Started thread group number 6
-2022-04-15 09:05:22,500 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2022-04-15 09:05:22,499 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Checkout 5-1
-2022-04-15 09:05:22,500 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Add to cart 4-1
-2022-04-15 09:05:22,501 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Add to cart 4-1
-2022-04-15 09:05:22,501 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Add to cart 4-1
-2022-04-15 09:05:22,501 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Checkout 5-1
-2022-04-15 09:05:22,501 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Checkout 5-1
-2022-04-15 09:05:22,502 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Contact 6-1
-2022-04-15 09:05:22,517 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = USBLRTDHURWE1
-2022-04-15 09:05:22,523 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
-2022-04-15 09:05:22,524 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
-2022-04-15 09:05:22,524 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
-2022-04-15 09:05:22,524 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
-2022-04-15 09:05:22,524 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
-2022-04-15 09:05:22,532 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Register 1-1
-2022-04-15 09:05:22,532 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Login 2-1
-2022-04-15 09:05:22,532 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Invalid Login 3-1
-2022-04-15 09:05:22,533 INFO o.a.j.s.FileServer: Stored: C:/Users/tdhurwe/Documents/Jmeter assignment/main assigment/register_user_data.csv
-2022-04-15 09:05:22,533 INFO o.a.j.s.FileServer: Stored: C:/Users/tdhurwe/Documents/Jmeter assignment/main assigment/invalid_login.csv
-2022-04-15 09:05:22,533 INFO o.a.j.s.FileServer: Stored: C:/Users/tdhurwe/Documents/Jmeter assignment/main assigment/login_data.csv
-2022-04-15 09:05:22,533 ERROR o.a.j.t.JMeterThread: Test failed!
-java.lang.IllegalArgumentException: File register_user_data.csv must exist and be readable
-	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.3]
-	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.3]
-	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:182) ~[ApacheJMeter_components.jar:5.4.3]
-	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.3]
-	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.3]
-	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.3]
-	at org.apache.jmeter.control.WhileController.next(WhileController.java:117) ~[ApacheJMeter_core.jar:5.4.3]
-	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222) ~[ApacheJMeter_core.jar:5.4.3]
-	at org.apache.jmeter.control.GenericController.next(GenericController.java:175) ~[ApacheJMeter_core.jar:5.4.3]
-	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222) ~[ApacheJMeter_core.jar:5.4.3]
-	at org.apache.jmeter.control.GenericController.next(GenericController.java:175) ~[ApacheJMeter_core.jar:5.4.3]
-	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.3]
-	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.3]
-	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.3]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-2022-04-15 09:05:22,533 ERROR o.a.j.t.JMeterThread: Test failed!
-java.lang.IllegalArgumentException: File login_data.csv must exist and be readable
-	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.3]
-	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.3]
-	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:182) ~[ApacheJMeter_components.jar:5.4.3]
-	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.3]
-	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.3]
-	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.3]
-	at org.apache.jmeter.control.WhileController.next(WhileController.java:117) ~[ApacheJMeter_core.jar:5.4.3]
-	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222) ~[ApacheJMeter_core.jar:5.4.3]
-	at org.apache.jmeter.control.GenericController.next(GenericController.java:175) ~[ApacheJMeter_core.jar:5.4.3]
-	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222) ~[ApacheJMeter_core.jar:5.4.3]
-	at org.apache.jmeter.control.GenericController.next(GenericController.java:175) ~[ApacheJMeter_core.jar:5.4.3]
-	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.3]
-	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.3]
-	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.3]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-2022-04-15 09:05:22,533 ERROR o.a.j.t.JMeterThread: Test failed!
+2022-04-15 12:27:05,287 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2022-04-15 12:27:05,300 INFO o.a.j.JMeter: Loading user properties from: C:\Users\tdhurwe\Downloads\apache-jmeter-5.4.3\bin\user.properties
+2022-04-15 12:27:05,300 INFO o.a.j.JMeter: Loading system properties from: C:\Users\tdhurwe\Downloads\apache-jmeter-5.4.3\bin\system.properties
+2022-04-15 12:27:05,315 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
+2022-04-15 12:27:05,315 INFO o.a.j.JMeter: Version 5.4.3
+2022-04-15 12:27:05,315 INFO o.a.j.JMeter: java.version=16.0.2
+2022-04-15 12:27:05,315 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2022-04-15 12:27:05,315 INFO o.a.j.JMeter: os.name=Windows 10
+2022-04-15 12:27:05,327 INFO o.a.j.JMeter: os.arch=amd64
+2022-04-15 12:27:05,327 INFO o.a.j.JMeter: os.version=10.0
+2022-04-15 12:27:05,327 INFO o.a.j.JMeter: file.encoding=Cp1252
+2022-04-15 12:27:05,327 INFO o.a.j.JMeter: java.awt.headless=true
+2022-04-15 12:27:05,327 INFO o.a.j.JMeter: Max memory     =1073741824
+2022-04-15 12:27:05,327 INFO o.a.j.JMeter: Available Processors =8
+2022-04-15 12:27:05,327 INFO o.a.j.JMeter: Default Locale=English (EN)
+2022-04-15 12:27:05,327 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2022-04-15 12:27:05,327 INFO o.a.j.JMeter: JMeterHome=C:\Users\tdhurwe\Downloads\apache-jmeter-5.4.3
+2022-04-15 12:27:05,327 INFO o.a.j.JMeter: user.dir  =C:\Users\tdhurwe\Documents\Jmeter_assignment\mainAssigment
+2022-04-15 12:27:05,327 INFO o.a.j.JMeter: PWD       =C:\Users\tdhurwe\Documents\Jmeter_assignment\mainAssigment
+2022-04-15 12:27:05,327 INFO o.a.j.JMeter: IP: 192.168.29.122 Name: USBLRTDHURWE1 FullName: USBLRTDHURWE1.us.deloitte.com
+2022-04-15 12:27:05,327 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'C:\Users\tdhurwe\Documents\Jmeter_assignment\mainAssigment\dashboard'
+2022-04-15 12:27:05,327 INFO o.a.j.s.FileServer: Default base='C:\Users\tdhurwe\Documents\Jmeter_assignment\mainAssigment'
+2022-04-15 12:27:05,327 INFO o.a.j.s.FileServer: Set new base='C:\Users\tdhurwe\Documents\Jmeter_assignment\mainAssigment'
+2022-04-15 12:27:05,431 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2022-04-15 12:27:05,448 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2022-04-15 12:27:05,448 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2022-04-15 12:27:05,448 INFO o.a.j.s.SaveService: Loading file: main_assignment.jmx
+2022-04-15 12:27:05,480 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-04-15 12:27:05,480 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-04-15 12:27:05,480 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-04-15 12:27:05,480 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-04-15 12:27:05,480 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2022-04-15 12:27:05,480 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2022-04-15 12:27:05,765 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2022-04-15 12:27:05,765 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file C:\Users\tdhurwe\Downloads\apache-jmeter-5.4.3\bin\proxyserver.jks
+2022-04-15 12:27:05,765 INFO o.a.j.JMeter: Creating summariser <summary>
+2022-04-15 12:27:05,782 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2022-04-15 12:27:05,782 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: jmeter-log.jtl
+2022-04-15 12:27:05,782 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: C:\Users\tdhurwe\Downloads\apache-jmeter-5.4.3\bin\reportgenerator.properties
+2022-04-15 12:27:05,782 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2022-04-15 12:27:05,782 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2022-04-15 12:27:05,782 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2022-04-15 12:27:05,782 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2022-04-15 12:27:05,782 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2022-04-15 12:27:05,782 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2022-04-15 12:27:05,782 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2022-04-15 12:27:05,782 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2022-04-15 12:27:05,782 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2022-04-15 12:27:05,782 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2022-04-15 12:27:05,782 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2022-04-15 12:27:05,782 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-04-15 12:27:05,782 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2022-04-15 12:27:05,782 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2022-04-15 12:27:05,782 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2022-04-15 12:27:05,782 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2022-04-15 12:27:05,782 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-04-15 12:27:05,782 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-04-15 12:27:05,782 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-04-15 12:27:05,782 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-04-15 12:27:05,782 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2022-04-15 12:27:05,782 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2022-04-15 12:27:05,782 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2022-04-15 12:27:05,782 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2022-04-15 12:27:05,782 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2022-04-15 12:27:05,782 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2022-04-15 12:27:05,799 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-04-15 12:27:05,799 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-04-15 12:27:05,799 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-04-15 12:27:05,803 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2022-04-15 12:27:05,803 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2022-04-15 12:27:05,835 INFO o.a.j.JMeter: Running test (1650005825835)
+2022-04-15 12:27:05,853 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group - Register
+2022-04-15 12:27:05,853 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group - Register.
+2022-04-15 12:27:05,853 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-04-15 12:27:05,853 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-04-15 12:27:05,853 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-04-15 12:27:05,853 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Thread Group - Login
+2022-04-15 12:27:05,853 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group - Login.
+2022-04-15 12:27:05,853 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-04-15 12:27:05,853 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=1 delayedStart=false
+2022-04-15 12:27:05,853 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2022-04-15 12:27:05,853 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : Thread Group - Invalid Login
+2022-04-15 12:27:05,853 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group - Invalid Login.
+2022-04-15 12:27:05,853 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-04-15 12:27:05,853 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=1 ramp-up=1 delayedStart=false
+2022-04-15 12:27:05,866 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2022-04-15 12:27:05,866 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 4 : Thread Group - Add to cart
+2022-04-15 12:27:05,866 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group - Add to cart.
+2022-04-15 12:27:05,866 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-04-15 12:27:05,866 INFO o.a.j.t.ThreadGroup: Starting thread group... number=4 threads=1 ramp-up=1 delayedStart=false
+2022-04-15 12:27:05,867 INFO o.a.j.t.ThreadGroup: Started thread group number 4
+2022-04-15 12:27:05,868 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 5 : Thread Group - Checkout
+2022-04-15 12:27:05,868 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group - Checkout.
+2022-04-15 12:27:05,868 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-04-15 12:27:05,868 INFO o.a.j.t.ThreadGroup: Starting thread group... number=5 threads=1 ramp-up=1 delayedStart=false
+2022-04-15 12:27:05,868 INFO o.a.j.t.ThreadGroup: Started thread group number 5
+2022-04-15 12:27:05,868 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 6 : Thread Group - Contact
+2022-04-15 12:27:05,868 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group - Contact.
+2022-04-15 12:27:05,868 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-04-15 12:27:05,868 INFO o.a.j.t.ThreadGroup: Starting thread group... number=6 threads=1 ramp-up=1 delayedStart=false
+2022-04-15 12:27:05,868 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Checkout 5-1
+2022-04-15 12:27:05,869 INFO o.a.j.t.ThreadGroup: Started thread group number 6
+2022-04-15 12:27:05,869 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-04-15 12:27:05,870 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Checkout 5-1
+2022-04-15 12:27:05,870 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Checkout 5-1
+2022-04-15 12:27:05,870 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Contact 6-1
+2022-04-15 12:27:05,886 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = USBLRTDHURWE1
+2022-04-15 12:27:05,886 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2022-04-15 12:27:05,886 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2022-04-15 12:27:05,886 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2022-04-15 12:27:05,886 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2022-04-15 12:27:05,886 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2022-04-15 12:27:05,898 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Invalid Login 3-1
+2022-04-15 12:27:05,898 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Login 2-1
+2022-04-15 12:27:05,898 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Register 1-1
+2022-04-15 12:27:05,898 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - Add to cart 4-1
+2022-04-15 12:27:05,899 INFO o.a.j.s.FileServer: Stored: C:/Users/tdhurwe/Documents/Jmeter assignment/main assigment/invalid_login.csv
+2022-04-15 12:27:05,899 INFO o.a.j.s.FileServer: Stored: C:/Users/tdhurwe/Documents/Jmeter_assignment/mainAssigment/login_data.csv
+2022-04-15 12:27:05,899 INFO o.a.j.s.FileServer: Stored: C:/Users/tdhurwe/Documents/Jmeter assignment/main assigment/register_user_data.csv
+2022-04-15 12:27:05,900 INFO o.a.j.s.FileServer: Stored: C:/Users/tdhurwe/Documents/Jmeter assignment/main assigment/login_data.csv
+2022-04-15 12:27:05,903 ERROR o.a.j.t.JMeterThread: Test failed!
 java.lang.IllegalArgumentException: File invalid_login.csv must exist and be readable
 	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.3]
 	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.3]
@@ -139,17 +134,103 @@ java.lang.IllegalArgumentException: File invalid_login.csv must exist and be rea
 	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.3]
 	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.3]
 	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.3]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-2022-04-15 09:05:22,542 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Register 1-1
-2022-04-15 09:05:22,542 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Login 2-1
-2022-04-15 09:05:22,542 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Invalid Login 3-1
-2022-04-15 09:05:22,784 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
-2022-04-15 09:05:22,792 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
-2022-04-15 09:05:22,792 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
-2022-04-15 09:05:22,890 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
-2022-04-15 09:05:22,897 INFO o.a.j.u.SSLManager: KeyStore created OK
-2022-04-15 09:05:22,897 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
-2022-04-15 09:05:24,350 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Contact 6-1
-2022-04-15 09:05:24,350 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Contact 6-1
-2022-04-15 09:05:24,351 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2022-04-15 09:05:24,352 INFO o.a.j.r.Summariser: summary =      3 in 00:00:02 =    1.6/s Avg:   591 Min:   323 Max:   966 Err:     0 (0.00%)
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+2022-04-15 12:27:05,903 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: File login_data.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:182) ~[ApacheJMeter_components.jar:5.4.3]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.control.WhileController.next(WhileController.java:117) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:175) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:175) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.3]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+2022-04-15 12:27:05,900 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: File register_user_data.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:182) ~[ApacheJMeter_components.jar:5.4.3]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.control.WhileController.next(WhileController.java:117) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:175) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:175) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:91) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:254) [ApacheJMeter_core.jar:5.4.3]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+2022-04-15 12:27:05,908 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Invalid Login 3-1
+2022-04-15 12:27:05,908 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Register 1-1
+2022-04-15 12:27:05,908 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Login 2-1
+2022-04-15 12:27:05,995 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2022-04-15 12:27:05,999 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2022-04-15 12:27:05,999 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2022-04-15 12:27:06,126 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2022-04-15 12:27:06,129 INFO o.a.j.u.SSLManager: KeyStore created OK
+2022-04-15 12:27:06,129 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2022-04-15 12:27:07,365 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group - Contact 6-1
+2022-04-15 12:27:07,365 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Contact 6-1
+2022-04-15 12:27:12,477 INFO o.a.j.s.TestAction: Switching to next loop iteration from element Flow Control Action - Continue
+2022-04-15 12:27:18,502 INFO o.a.j.s.TestAction: Switching to next loop iteration from element Flow Control Action - Continue
+2022-04-15 12:27:24,558 INFO o.a.j.s.TestAction: Switching to next loop iteration from element Flow Control Action - Continue
+2022-04-15 12:27:30,544 INFO o.a.j.s.TestAction: Switching to next loop iteration from element Flow Control Action - Continue
+2022-04-15 12:27:30,882 INFO o.a.j.r.Summariser: summary +     40 in 00:00:25 =    1.6/s Avg:   358 Min:   313 Max:   819 Err:     0 (0.00%) Active: 1 Started: 6 Finished: 5
+2022-04-15 12:27:36,525 INFO o.a.j.s.TestAction: Switching to next loop iteration from element Flow Control Action - Continue
+2022-04-15 12:27:36,525 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Thread Group - Add to cart 4-1, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:C:/Users/tdhurwe/Documents/Jmeter_assignment/mainAssigment/login_data.csv detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2022-04-15 12:27:36,525 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - Add to cart 4-1
+2022-04-15 12:27:36,525 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-04-15 12:27:36,525 INFO o.a.j.s.FileServer: Close: C:/Users/tdhurwe/Documents/Jmeter_assignment/mainAssigment/login_data.csv
+2022-04-15 12:27:36,525 INFO o.a.j.r.Summariser: summary +      8 in 00:00:06 =    1.4/s Avg:   328 Min:   311 Max:   349 Err:     0 (0.00%) Active: 0 Started: 6 Finished: 6
+2022-04-15 12:27:36,525 INFO o.a.j.r.Summariser: summary =     48 in 00:00:31 =    1.6/s Avg:   353 Min:   311 Max:   819 Err:     0 (0.00%)
+2022-04-15 12:27:36,525 INFO o.a.j.JMeter: Generating Dashboard
+2022-04-15 12:27:36,525 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2022-04-15 12:27:36,542 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2022-04-15 12:27:36,575 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2022-04-15 12:27:36,575 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2022-04-15 12:27:36,591 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2022-04-15 12:27:36,591 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2022-04-15 12:27:36,591 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2022-04-15 12:27:36,591 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2022-04-15 12:27:36,591 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2022-04-15 12:27:36,591 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2022-04-15 12:27:36,591 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2022-04-15 12:27:36,591 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2022-04-15 12:27:36,591 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2022-04-15 12:27:36,591 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2022-04-15 12:27:36,607 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2022-04-15 12:27:36,607 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 336 samples
+2022-04-15 12:27:36,607 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2022-04-15 12:27:36,607 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2022-04-15 12:27:36,607 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2022-04-15 12:27:36,607 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2022-04-15 12:27:36,607 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2022-04-15 12:27:36,607 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2022-04-15 12:27:36,607 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2022-04-15 12:27:36,607 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2022-04-15 12:27:36,607 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2022-04-15 12:27:36,607 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2022-04-15 12:27:36,607 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 720 samples
+2022-04-15 12:27:36,607 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 144 samples
+2022-04-15 12:27:36,607 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 48 samples
+2022-04-15 12:27:36,607 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 48 samples produced in 50ms on channel 0
+2022-04-15 12:27:36,607 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2022-04-15 12:27:36,679 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2022-04-15 12:27:36,679 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2022-04-15 12:27:36,679 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2022-04-15 12:27:36,679 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2022-04-15 12:27:36,679 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to C:\Users\tdhurwe\Documents\Jmeter_assignment\mainAssigment\dashboard\statistics.json
+2022-04-15 12:27:36,713 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2022-04-15 12:27:36,713 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: C:\Users\tdhurwe\Documents\Jmeter_assignment\mainAssigment\dashboard
+2022-04-15 12:27:36,775 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: C:\Users\tdhurwe\Documents\Jmeter_assignment\mainAssigment\dashboard, creating folder structure
+2022-04-15 12:27:36,775 INFO o.a.j.r.d.TemplateVisitor: Copying folder from 'C:\Users\tdhurwe\Downloads\apache-jmeter-5.4.3\bin\report-template' to 'C:\Users\tdhurwe\Documents\Jmeter_assignment\mainAssigment\dashboard', got message: C:\Users\tdhurwe\Documents\Jmeter_assignment\mainAssigment\dashboard, found non empty folder with following content [C:\Users\tdhurwe\Documents\Jmeter_assignment\mainAssigment\dashboard\statistics.json], will be ignored
+2022-04-15 12:27:37,291 INFO o.a.j.JMeter: Dashboard generated

@@ -1,0 +1,32 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1650010091514,1196,Registration,200,OK,Thread Group - Register 1-1,text,false,User already exist.,493,492,1,1,https://api.demoblaze.com/signup,1195,0,783
+1650010095725,456,Registration,200,OK,Thread Group - Register 1-1,text,false,User already exist.,689,492,1,1,https://api.demoblaze.com/signup,456,0,0
+1650010099185,376,Registration,200,OK,Thread Group - Register 1-1,text,false,User already exist.,658,492,1,1,https://api.demoblaze.com/signup,376,0,0
+1650010102573,369,Registration,200,OK,Thread Group - Register 1-1,text,false,User already exist.,655,492,1,1,https://api.demoblaze.com/signup,368,0,0
+1650010105946,374,Registration,200,OK,Thread Group - Register 1-1,text,false,User already exist.,678,492,1,1,https://api.demoblaze.com/signup,373,0,0
+1650010109330,369,Registration,200,OK,Thread Group - Register 1-1,text,false,User already exist.,488,492,1,1,https://api.demoblaze.com/signup,368,0,0
+1650010112708,369,Registration,200,OK,Thread Group - Register 1-1,text,false,User already exist.,561,489,1,1,https://api.demoblaze.com/signup,369,0,0
+1650010116096,566,Valid Login,200,OK,Thread Group - Login 2-1,text,true,,613,485,1,1,https://api.demoblaze.com/login,565,0,191
+1650010119680,567,Valid Login,200,OK,Thread Group - Login 2-1,text,true,,564,487,1,1,https://api.demoblaze.com/login,566,0,0
+1650010123251,476,Valid Login,200,OK,Thread Group - Login 2-1,text,true,,513,488,1,1,https://api.demoblaze.com/login,475,0,0
+1650010126740,468,Valid Login,200,OK,Thread Group - Login 2-1,text,true,,529,489,1,1,https://api.demoblaze.com/login,467,0,0
+1650010130209,369,Valid Login,200,OK,Thread Group - Login 2-1,text,true,,477,488,1,1,https://api.demoblaze.com/login,368,0,0
+1650010138593,598,Invalid Login,200,OK,Thread Group - Invalid Login 3-1,text,true,,546,492,1,1,https://api.demoblaze.com/login,596,0,176
+1650010147237,350,Invalid Login,200,OK,Thread Group - Invalid Login 3-1,text,true,,503,492,1,1,https://api.demoblaze.com/login,349,0,0
+1650010155597,386,Invalid Login,200,OK,Thread Group - Invalid Login 3-1,text,true,,675,492,1,1,https://api.demoblaze.com/login,385,0,0
+1650010163993,318,Invalid Login,200,OK,Thread Group - Invalid Login 3-1,text,true,,526,492,1,1,https://api.demoblaze.com/login,318,0,0
+1650010172325,352,Invalid Login,200,OK,Thread Group - Invalid Login 3-1,text,true,,517,492,1,1,https://api.demoblaze.com/login,351,0,0
+1650010180695,377,Invalid Login,200,OK,Thread Group - Invalid Login 3-1,text,false,Expected to find an object with property ['errorMessage'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.,523,489,1,1,https://api.demoblaze.com/login,376,0,0
+1650010189096,375,Invalid Login,200,OK,Thread Group - Invalid Login 3-1,text,true,,504,492,1,1,https://api.demoblaze.com/login,375,0,0
+1650010197489,327,Invalid Login,200,OK,Thread Group - Invalid Login 3-1,text,true,,621,492,1,1,https://api.demoblaze.com/login,327,0,0
+1650010205832,533,Invalid Login,200,OK,Thread Group - Invalid Login 3-1,text,true,,463,492,1,1,https://api.demoblaze.com/login,533,0,163
+1650010214380,381,Invalid Login,200,OK,Thread Group - Invalid Login 3-1,text,true,,475,492,1,1,https://api.demoblaze.com/login,380,0,0
+1650010222793,364,Invalid Login,200,OK,Thread Group - Invalid Login 3-1,text,true,,477,492,1,1,https://api.demoblaze.com/login,364,0,0
+1650010231188,314,Invalid Login,200,OK,Thread Group - Invalid Login 3-1,text,true,,608,492,1,1,https://api.demoblaze.com/login,313,0,0
+1650010239523,320,Invalid Login,200,OK,Thread Group - Invalid Login 3-1,text,true,,658,492,1,1,https://api.demoblaze.com/login,319,0,0
+1650010247853,392,Invalid Login,200,OK,Thread Group - Invalid Login 3-1,text,true,,667,492,1,1,https://api.demoblaze.com/login,392,0,0
+1650010256248,326,Invalid Login,200,OK,Thread Group - Invalid Login 3-1,text,true,,669,492,1,1,https://api.demoblaze.com/login,325,0,0
+1650010264584,354,Invalid Login,200,OK,Thread Group - Invalid Login 3-1,text,true,,520,492,1,1,https://api.demoblaze.com/login,353,0,0
+1650010267958,563,/login-2,200,OK,Thread Group - Contact 5-1,text,true,,588,488,1,1,https://api.demoblaze.com/login,563,0,177
+1650010268522,409,/check-22,200,OK,Thread Group - Contact 5-1,text,true,,656,475,1,1,https://api.demoblaze.com/check,409,0,0
+1650010268932,409,contact/check-49,200,OK,Thread Group - Contact 5-1,text,true,,726,475,1,1,https://api.demoblaze.com/check,408,0,0
